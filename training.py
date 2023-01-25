@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader
 from util.util import enumerateWithEstimate
 from dsets import LunaDataset
 from util.logconf import logging
-from .model import LunaModel
+from model import LunaModel
 
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)
